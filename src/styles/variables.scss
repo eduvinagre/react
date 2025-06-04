@@ -1,0 +1,19 @@
+// Colors
+$color-primary: #333;
+$color-secondary: #555;
+$color-accent: #f0a500; // Example accent
+
+$board-bg-light: linear-gradient(153.43deg, rgba(250, 250, 250, 0.3) 0%, rgba(255, 255, 255, 0.15) 83.33%);
+$board-bg-dark: linear-gradient(153.43deg, rgba(250, 250, 250, 0.15) 0%, rgba(255, 255, 255, 0.05) 83.33%);
+$selected-square-bg: rgba(240, 165, 0, 0.5); // Semi-transparent accent for selection
+$valid-target-bg: rgba(144, 238, 144, 0.5); // Light green for valid moves
+
+// Sizes
+$square-size-desktop: 72px;
+$square-size-mobile: 58.67px;
+$piece-font-size: 2em;
+
+// Board
+$default-board-size: 6; // For min-width/height calculations if needed
+
+/* Colour=White, Piece=Off, Active=Off, Number / Name=Off, Hint=Off */

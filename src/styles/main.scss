@@ -1,0 +1,14 @@
+// Import variables and mixins first so they are available globally
+@import 'variables';
+@import 'mixins';
+
+// Base styles (resets, body, typography)
+@import 'base';
+
+// Import component-specific styles (these are SCSS modules, actual import in components)
+// This file is mainly for global styles if you had any, or to ensure build order if not using modules for everything.
+// For this setup, component styles are imported directly in their respective .tsx files as CSS Modules.
+// You could also have global styles for components here if you weren't using CSS Modules for everything.
+
+// Example:
+// @import 'components/button'; // if you had a global button style

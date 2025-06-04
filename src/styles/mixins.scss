@@ -1,0 +1,17 @@
+// Example mixin
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin valid-target-style {
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 24px/2);
+  top: calc(50% - 24px/2);
+  background: $valid-target-bg;
+  opacity: 0.5;
+  border-radius: 12px;
+  position: absolute;
+}

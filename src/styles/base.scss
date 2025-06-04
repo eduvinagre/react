@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #100F11; // Dark background for the page
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; // Align game to top
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: $color-accent;
+}

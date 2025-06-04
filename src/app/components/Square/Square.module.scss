@@ -1,0 +1,42 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+.square {
+  width: $square-size-desktop; // Control size here
+  height: $square-size-desktop;
+  @include flex-center;
+  cursor: pointer;
+  user-select: none; // Prevent text selection on click
+
+  &.light {
+    background: $board-bg-light;
+  }
+
+  &.dark {
+    background: $board-bg-dark;
+  }
+
+  &.selected {
+    background-color: $selected-square-bg;
+    outline: 2px solid $color-accent;
+    outline-offset: -2px;
+  }
+
+  &.validTarget {
+    background-color: $valid-target-bg;
+
+    &:hover {
+      filter: brightness(1.1);
+    }
+  }
+
+  // Responsive size example
+  @media (max-width: 768px) {
+    width: $square-size-mobile;
+    height: $square-size-mobile;
+  }
+}
+
+.some-class {
+  @include valid-target-style;
+}

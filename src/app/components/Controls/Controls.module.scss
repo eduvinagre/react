@@ -1,0 +1,54 @@
+@import '../../../styles/variables';
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: $color-secondary;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+  div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  label {
+    font-size: 0.9rem;
+  }
+
+  input[type="number"] {
+    width: 60px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: $color-accent;
+    color: $color-primary;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: darken($color-accent, 10%);
+    }
+  }
+
+  .note {
+    font-size: 0.8rem;
+    color: #ddd;
+    text-align: center;
+    max-width: 300px;
+  }
+}
