@@ -1,4 +1,4 @@
-import Game from '@/app/components/Game/Game';
+import Game from '@/app/components/Game';
 import '@/styles/main.scss'; // Import global SASS styles
 
 export default function HomePage() {

@@ -14,7 +14,7 @@ import {
   checkWinCondition,
   DEFAULT_BOARD_SIZE,
 } from '@/lib/gameLogic';
-import Board from '@/app/components/Board/Board';
+import Board from '@/app/components/Board';
 import Controls from '@/app/components/Controls/Controls';
 import styles from './Game.module.scss';
 
