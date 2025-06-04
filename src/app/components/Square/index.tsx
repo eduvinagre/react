@@ -1,6 +1,6 @@
 import React from 'react';
 import { SquareState, Position } from '@/types';
-import PieceDisplay from '../Piece/Piece'; // Updated import
+import PieceDisplay from '../Piece'; // Updated import
 import styles from './Square.module.scss';
 
 interface SquareProps {
